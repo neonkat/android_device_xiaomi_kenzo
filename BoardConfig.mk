@@ -44,3 +44,12 @@ BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # inherit from the proprietary version
 -include vendor/xiaomi/kenzo/BoardConfigVendor.mk
+
+SDCLANG := true
+
+SDCLANG_PATH := prebuilts/clang/host/linux-x86/sdclang-3.8/bin
+
+SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
+
+SDCLANG_COMMON_FLAGS := -O3 -fvectorize-loops
+
