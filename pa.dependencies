@@ -53,5 +53,11 @@
     "repository":  "DirtyUnicorns/android_external_ant-wireless_antradio-library",
     "target_path": "external/ant-wireless/antradio-library",
     "revision":    "n7x-caf"
+  },
+  {
+    "remote":      "caf",
+    "repository":  "platform/vendor/qcom-opensource/display-frameworks",
+    "target_path": "vendor/qcom/opensource/display-frameworks",
+    "revision":    "LA.BR.1.3.6_rb1.18"
   }
 ]

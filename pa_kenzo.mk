@@ -29,6 +29,8 @@ include device/qcom/common/common.mk
 # Inherit the main configuration from our vendor.
 include vendor/pa/main.mk
 
+TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
+
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
