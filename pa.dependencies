@@ -65,5 +65,11 @@
     "repository":  "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
     "revision":    "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_hardware_ril",
+    "target_path": "hardware/ril-caf",
+    "revision":    "cm-14.1-caf"
   }
 ]
