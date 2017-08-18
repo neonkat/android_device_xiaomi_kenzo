@@ -7,7 +7,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "TheMuppets/proprietary_vendor_xiaomi",
+    "repository":  "neonkat/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "revision":    "cm-14.1"
   },
